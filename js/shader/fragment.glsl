@@ -144,7 +144,6 @@ float cnoise(vec4 P, vec4 rep){
 }
 
 void main()	{
-	// vec2 newUV = (vUv - vec2(0.5))*resolution.zw + vec2(0.5);
 	float diff = dot(vec3(1.), vNormal);
 	
 	float phi = acos(vNormal.y);
